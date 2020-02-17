@@ -4,6 +4,15 @@ Different game stats are projected in the interface.
 
 ## Main Page
 
+![alt text](HomePage.jpg)
+
+
 ## Base Card Page
 
+![alt text](BasicCard.jpg)
+
+
 ## Upgrade Card Page
+
+![alt text](UpgradeCard.jpg)
+
