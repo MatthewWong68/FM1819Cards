@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="barcelonaPlayersPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BarcelonaPlayersController">
+   <center>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="22.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="120.0" spacing="20.0">
+               <children>
+                  <Button fx:id="terStegen" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Ter Stegen" />
+                  <Button fx:id="nelsonSemedo" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Nelson Semedo" />
+                  <Button fx:id="gerardPique" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Gerard Pique" />
+                  <Button fx:id="ivanRakitic" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Ivan Rakitic" />
+                  <Button fx:id="sergioBusquests" mnemonicParsing="false" text="Sergio Busquests" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="120.0" spacing="20.0">
+               <children>
+                  <Button fx:id="denisSuarez" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Denis Suarez" />
+                  <Button fx:id="philippeCoutinho" mnemonicParsing="false" text="Philippe Coutinho" />
+                  <Button fx:id="arthurMelo" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Arthur Melo" />
+                  <Button fx:id="luisSuarez" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Luis Suarez" />
+                  <Button fx:id="lionelMessi" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Lionel Messi" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="120.0" spacing="20.0">
+               <children>
+                  <Button fx:id="ousmaneDembele" mnemonicParsing="false" text="Ousmane Dembele" />
+                  <Button fx:id="jasperCillessen" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Jasper Cillessen" />
+                  <Button fx:id="malcom" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Malcom" />
+                  <Button fx:id="lenglet" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Lenglet" />
+                  <Button fx:id="jordiAlba" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Jordi Alba" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="120.0" spacing="20.0">
+               <children>
+                  <Button fx:id="munir" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Munir" />
+                  <Button fx:id="sergiRoberto" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Sergi Roberto" />
+                  <Button fx:id="arturoVidal" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Arturo Vidal" />
+                  <Button fx:id="samuelUmtiti" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Samuel Umtiti" />
+                  <Button fx:id="thomasVermaelen" mnemonicParsing="false" text="Thomas Vermaelen" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <VBox alignment="CENTER" prefHeight="125.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="128.0" prefWidth="600.0" spacing="50.0">
+               <children>
+                  <ImageView fitHeight="104.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Barca.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label text="FC Barcelona">
+                     <font>
+                        <Font name="Segoe Print" size="38.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="104.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@UCLOfficial.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="54.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="back" mnemonicParsing="false" text="Back" />
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
